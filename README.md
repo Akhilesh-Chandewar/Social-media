@@ -87,7 +87,6 @@ Make sure mongodb and redis are both running on your local machine.
 - You can run the command `npm run test` to execute the unit tests added to the features controllers.
 
 ## API Endpoints
-- The actual endpoints for the application can be found inside the folder named `endpoints` [https://github.com/uzochukwueddie/chatty-backend/tree/develop/endpoints](https://github.com/uzochukwueddie/chatty-backend/tree/develop/endpoints). 
 - The endpoint files all have a `.http` extension. 
 - To use this files to make api calls, install the extension called [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) on vscode.
 - Update the endpoints http files before using.
@@ -191,5 +190,3 @@ Make sure mongodb and redis are both running on your local machine.
 ### Before Starting a Build
 - Inside the `circleci.yml` file, you need to make some updates.
 - There are some properties named `<variable-prefix>` that you need to replace with the `prefix` value from your terraform `variables.tf`. Search the config.yml file and replace `<variable-prefix>`.
-
-## You can find the frontend code [here](https://github.com/uzochukwueddie/chatty)
